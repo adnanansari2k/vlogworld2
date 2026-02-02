@@ -1,21 +1,21 @@
-# VlogWorld
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
+🌍 VlogWorld
+​A premium travel vlog tracking application that turns your road trips into an interactive map experience. Built with Vue 3, Vite, Leaflet, and Firebase.
+​✨ Features
+​Interactive Journey Map: Track individual vlogs or entire road trip series (Journeys) with smooth path animations.
+​Smart Zoom: The map automatically fits the entire journey path or zooms into specific city locations.
+​Traveler Passport: Earn digital stamps for countries visited (requires 10 watched videos per country).
+​Localized History: Fast access to your last 10 clicked videos via localStorage.
+​Admin Suite: Integrated tools to add, edit, or delete destinations directly from the player.
+​Responsive Design: Slim, mobile-first UI with high-end glassmorphism elements.
+​🛠️ Tech Stack
+​Frontend: Vue.js 3 (Composition API)
+​State Management: Reactive Store Pattern
+​Map Engine: Leaflet.js with CartoDB Voyager tiles
+​Database/Auth: Firebase Firestore & Anonymous Authentication
+​Styling: Tailwind CSS & FontAwesome Icons
+​🚀 Getting Started
 ## Customize configuration
+
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
